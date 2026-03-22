@@ -11,6 +11,7 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Heading
 
 # H1
+注意#后面有空格
 ## H2
 ### H3
 
@@ -66,7 +67,7 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 | Paragraph | Text |
 
 ### Fenced Code Block
-
+（这个看起来很方便，以后C++学习这样写吧）
 ```
 {
   "firstName": "John",
