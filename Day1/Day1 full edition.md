@@ -1,4 +1,27 @@
 # 将此文件夹另外两个文件合成一个markdown C++学习文件
+```
+{
+#include <iostream>
+#include <vector>
+#include <unordered_map>
+using namespace std;
+
+class Solution{
+public:
+    vector<int> twoSum(vector<int>& nums,int target){
+        unordered_map<int,int> map;
+        for(int i=0;i<nums.size();++i){
+            int complement=target-nums[i];
+            if(map.find(complement)!=map.end()){
+                return {map[complement],i};
+            }
+            map[nums[i]]=i;
+        }
+        return {};
+    }
+};
+}
+```
 ## Day1
 ### 基础知识：
 1. 函数中传入数组要加&；vector<int>& nums;
