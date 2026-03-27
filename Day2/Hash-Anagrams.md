@@ -1,3 +1,4 @@
+
 ```
 #include <iostream>
 #include <unordered_map>
@@ -22,3 +23,8 @@ public:
     }
 };
 ```
+# 基础知识
+1. sort() 函数：来自头文件<algotithm>，key.begin()是第一个字符的迭代器，key.end()是最后一个字符下一个位置的迭代器，sort()会按照ASCII码顺序把区间[begin,end)内的字符串排序。
+2. for(const auto& entry:  )，for(string&str: strs)用法见Day1。
+
+# 算法实现
