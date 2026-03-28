@@ -28,3 +28,7 @@ public:
 2. for(const auto& entry:  )，for(string&str: strs)用法见Day1。
 
 # 算法实现
+1. 输出要求什么函数返回类型就设置成什么。
+2. 明显的把字符串分类选择unordered_map类型设置好key过后把同类型一个一个push_back。
+3. 最后按照函数返回类型再设置一个for循环把unordered_map转换成vector<vector<string>>。
+   
