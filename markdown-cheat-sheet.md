@@ -19,11 +19,11 @@ These are the elements outlined in John Gruber’s original design document. All
 
 **bold text**
 
-### Italic
+### Italic 斜体
 
 *italicized text*
 
-### Blockquote
+### Blockquote 引用
 
 > blockquote
 
