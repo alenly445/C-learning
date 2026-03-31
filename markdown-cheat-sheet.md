@@ -33,14 +33,13 @@ These are the elements outlined in John Gruber’s original design document. All
 2. Second item
 3. Third item
 
-### Unordered List
+### Unordered List  -无序列表
 
 - First item
 - Second item
 - Third item
 
-### Code
-
+### Code  ` `(左上角符号)写入代码
 `code`
 
 ### Horizontal Rule
